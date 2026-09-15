@@ -1,0 +1,27 @@
+# Secrets — NEVER commit these
+.env
+.env.*
+
+# Virtual environment
+.venv/
+venv/
+
+# Database files (generated, not source code)
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+
+# Misc
+output/
+*.tmp
